@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP2132 Hangman</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h2>Hangman game project</h2>
+    </header>
+
+    <div class="game-container">
+        <h1>COMP2132 'HANGMAN'</h1>
+
+        <div class="game-board">
+            <img id="kenny-image" alt="hangman image"> <!-- Removed src="./images/b_bg.jpg" -->
+            <div id="word-display"></div>
+            <div class="hint-and-guesses">
+                <div id="hint">Hint: <span id="hint-text"></span></div>
+                <div id="incorrect-guesses" class="incorrect-guesses">Incorrect guesses: <span
+                        id="guess-count">0/7</span></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div id="alphabet"></div>
+        </div>
+
+        <div class="warning-message">
+            <p>Guess a letter from the mystery word... you have a limited number of chances to guess the entire word.
+                Unfortunately, Kenny McCormick will suffer the consequences for each wrong guess.</p>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal-container" id="result-modal">
+            <div class="modal-content">
+                <h2 id="modal-title">Game Result</h2>
+                <p id="modal-message"></p>
+                <div class="modal-image">
+                    <img id="result-image" src="" alt="Result image">
+                </div>
+                <button id="modal-play-again">Play Again</button>
+            </div>
+        </div>
+
+        <div id="game-result" class="hidden">
+            <p id="result-message"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>All rights reserved by Annaysha Nargis</p>
+    </footer>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

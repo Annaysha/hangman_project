@@ -1,0 +1,18 @@
+[
+    {"word": "javascript", "hint": "A popular programming language"},
+    {"word": "python", "hint": "A snake-themed programming language"},
+    {"word": "html", "hint": "Markup language for web pages"},
+    {"word": "css", "hint": "Styles web content"},
+    {"word": "react", "hint": "A JavaScript library for UI"},
+    {"word": "node", "hint": "JavaScript runtime environment"},
+    {"word": "angular", "hint": "Google's web application framework"},
+    {"word": "typescript", "hint": "JavaScript with static typing"},
+    {"word": "mongodb", "hint": "NoSQL database program"},
+    {"word": "docker", "hint": "Container platform"},
+    {"word": "git", "hint": "Version control system"},
+    {"word": "aws", "hint": "Cloud computing platform"},
+    {"word": "linux", "hint": "Open-source operating system"},
+    {"word": "jquery", "hint": "Fast JavaScript library"},
+    {"word": "php", "hint": "Server-side scripting language"},
+    {"word": "swift", "hint": "Apple's programming language"}
+]
